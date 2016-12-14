@@ -17,11 +17,17 @@
         "name": "Webgains"
       }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/Webgains/documentarian"
+      }
+    ],
     "require": {
         "php": ">=5.5.0",
         "fzaninotto/faker": "~1.0",
         "laravel/framework": "~5.0",
-        "mpociot/documentarian": "^0.2.0",
+        "webgains/documentarian": "dev-master",
         "mpociot/reflection-docblock": "^1.0",
         "ramsey/uuid": "^3.0"
     },
