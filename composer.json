@@ -1,5 +1,5 @@
 {
-    "name": "mpociot/laravel-apidoc-generator",
+    "name": "webgains/laravel-apidoc-generator",
     "license": "MIT",
     "description": "Generate beautiful API documentation from your Laravel application",
     "keywords": [
@@ -9,10 +9,13 @@
     ],
     "homepage": "http://github.com/mpociot/laravel-apidoc-generator",
     "authors": [
-        {
-            "name": "Marcel Pociot",
-            "email": "m.pociot@gmail.com"
-        }
+      {
+        "name": "Marcel Pociot",
+        "email": "m.pociot@gmail.com"
+      },
+      {
+        "name": "Webgains"
+      }
     ],
     "require": {
         "php": ">=5.5.0",
