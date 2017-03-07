@@ -17,12 +17,6 @@
         "name": "Webgains"
       }
     ],
-    "repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/Webgains/documentarian"
-      }
-    ],
     "require": {
         "php": ">=5.5.0",
         "fzaninotto/faker": "~1.0",
@@ -37,6 +31,12 @@
         "dingo/api": "1.0.*@dev",
         "mockery/mockery": "^0.9.5"
     },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/Webgains/documentarian"
+      }
+    ],
     "autoload": {
         "psr-0": {
             "Mpociot\\ApiDoc": "src/"
